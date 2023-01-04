@@ -4,9 +4,9 @@ export async function postData(title: any,body: any,userId: any)
           await fetch('https://jsonplaceholder.typicode.com/posts', {
                     method: 'POST',
                     body: JSON.stringify({
-                    title: title,
-                    body: body,
-                    userId: userId
+                    title,
+                    body,
+                    userId,
                     }),
                     headers: {
                     'Content-type': 'application/json; charset=UTF-8',
