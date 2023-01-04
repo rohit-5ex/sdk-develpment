@@ -4,4 +4,4 @@ const Greeter = (name: string) => `Hello ${name}`;
 postData('This is a title', 'This is a body', 101);
 getData();
 // console.log(Greeter("Hemant"));
-export {Greeter,postData,getData}
+export { Greeter, postData, getData };
